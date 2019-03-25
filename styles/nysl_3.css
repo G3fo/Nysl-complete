@@ -1,0 +1,275 @@
+#logo {
+  width: 150px;
+  float: right;
+  top: 70px;
+  right: 15px;
+  position: absolute;
+}
+
+#design1, #design2 {
+  display: none;
+}
+
+body {
+  margin: 0px;
+  background-image: url(../images/grass3.jpg);
+  background-repeat: repeat;
+  overflow-y: scroll;
+}
+
+h1 {
+  background-image: url(../images/design1_image1.jpg);
+  background-size: cover;
+  position: relative;
+  height: 250px;
+  color: white;
+  font: bold 60px arial;
+  margin: 0;
+  text-shadow: 2px 2px black;
+}
+
+#title {
+  background: black;
+  color: white;
+  text-align: center;
+  font: bold 25px arial;
+  margin-top: -31px;
+  display: inherit;
+}
+
+nav {
+  position: absolute;
+  top: 300px;
+  right: 10px;
+  display: inline-block;
+  width: 13%;
+  margin-left: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: lime;
+}
+
+#mail:hover{
+  color: lime;
+}
+
+#mail{
+  font: bold 14px arial;  
+  color: white;
+}
+
+.link:hover{
+  background-color: green;
+  color: lime;
+}
+
+.link {
+  font: bold 14px arial;  
+  color: green;
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  border: 2px solid #000000;
+  background-color: #000000;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 3px 3px black;
+  border-radius: 10px;
+}
+
+#self {
+  font: bold 14px arial; 
+  color: green;
+  display: block;
+  margin: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  padding:  8px 8px 8px 8px;
+  box-shadow: 3px 3px black;
+  border-radius: 10px;
+}
+
+h6 {
+  font-size: 14px;
+  font-style: oblique;
+  margin: 10px;
+}
+
+p {
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font:  14px arial;
+  color: white;
+}
+
+section {
+  width: 65%;
+  margin-left: 30px;
+  margin-top: -15px;
+  display: inline-block; 
+  font: 14px arial;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  text-align: justify;
+}
+
+#imagen {
+  float: left;
+  display: inline-block;
+  width: 200px;
+  border: 2px solid #000000;
+  box-shadow: 3px 3px black;
+  border-radius: 5px;
+}
+
+#link{
+  color: white;
+  font: bolder 14px arial;
+}
+
+ul{
+  font: 14px arial;
+  color: white;
+  list-style-type: square;
+  margin-left: 8px;
+}
+
+ol{
+  font:  14px arial;
+  color: white;
+  margin-left: 10px;
+}
+
+.h4margin{
+  margin: 0px;
+  display: inline;
+}
+
+.abclist{
+  list-style: lower-alpha;
+}
+
+li{
+  margin: 8px;
+}
+
+.circlelist {
+  list-style: circle;
+}
+
+.inlineh4{
+  display: inline;
+  margin: 0px;
+}
+
+.margin{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.underL{
+  text-decoration-line: underline;
+}
+
+table{
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+th{
+  font-size: 20px;
+
+}
+
+tr{
+  margin: 30px;
+  text-align: left;
+}
+
+th, td {
+  border-bottom: 1px solid #cecfd5;
+  padding: 10px 10px;
+}
+
+.Aright{
+  float: right;
+}
+
+.center{
+  text-align: center;
+}
+
+.text{
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 20px;
+}
+
+
+.maps{
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+}
+
+.mapbox{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
+iframe{
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+#checkboxes{
+  display: flex;
+  width: 100%;
+}
+
+#leftform{
+  display: inline-flex;
+}
+
+.formtable{
+  display: inline-block;
+  width: 49.5%;
+}
+
+#select{
+  display: inline;
+}
+
+#sign{
+  margin: 0px;
+}
+
+#submitbutton{
+  border-radius: 5px;
+  height: 30px;
+  font: 14px arial;
+  text-align: center;
+}
+
+fieldset{
+  border-radius: 10px;
+}
+
+label{
+  display: inline-block;
+  margin: 8px;
+}
+
+#RadioBCloseSchool label{
+  display: inline-block;
+}

@@ -1,0 +1,76 @@
+#logo {
+    width: 150px;
+    float: right;
+    top: 190px;
+    right: 100px;
+    position: absolute;
+}
+
+div {
+    display: none;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    background-image: url(../images/design1_image1.jpg);
+    background-size: cover;
+    position: relative;
+    height: 250px;
+    color: white;
+    font: bold 60px arial;
+    margin: 0;
+}
+
+#title {
+    background: black;
+    color: white;
+    text-align: center;
+    font: bold 25px arial;
+    margin-top: -31px;
+    display: inherit;
+}
+
+nav {
+    width: 15%;
+    float: left;
+}
+
+#home, #about, #contact {
+    font: bolder;
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+}
+
+#home1, #about1, #contact1 {
+    font: bolder;
+    display: block;
+    margin: 15px;
+    font-weight: bolder;
+}
+
+h6 {
+    font-size: 14px;
+    font-style: oblique;
+    margin: 10px;
+}
+
+p {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section {
+    font: 14px arial;
+    width: 85%;
+    display: block; 
+    float: right;
+}
+
+aside {
+    display: none;
+}
